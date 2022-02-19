@@ -2,7 +2,7 @@
 # FILE="/etc/Caddy"
 domain="$1"
 psname="$2"
-uuid="51be9a06-299f-43b9-b713-1ec5eb76e3d7"
+uuid="dd0ea2ca-fa06-484e-95b5-ee12e1d6ab1b"
 if  [ ! "$3" ] ;then
     uuid=$(uuidgen)
     echo "uuid 将会系统随机生成"
